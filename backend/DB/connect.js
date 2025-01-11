@@ -1,6 +1,6 @@
 const dotenv = require('dotenv');
 const path = require('path');
-dotenv.config({ path: path.resolve(__dirname, '../.env') }); // Ajusta la ruta a la raíz
+dotenv.config({ path: path.resolve(__dirname, '../.env') });
 const MongoClient = require('mongodb').MongoClient;
 
 let _db;
